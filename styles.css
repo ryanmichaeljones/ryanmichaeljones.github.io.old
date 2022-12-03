@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    background-color: #202124;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    background-color: #30313475;
+    background: url(images/code-background.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 21rem 0px 21rem 0px;
+}
+
+.content {
+    padding-top: 20px;
+    /* background-color: #202124; */
+    background-color: #30313475;
+    background: url(images/code-background.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.row {
+    padding-bottom: 10px;
+}
+
+.navbar {
+    background-color: #1215188a;
+    color: white;
+}
+
+.nav-link {
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.panel {
+    background-color: #303134;
+}
+
+.title {
+    background-color: #1d202273;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.level-bar {
+    padding-bottom: 15px;
+}
+
+body img.img-responsive {
+    margin: auto;
+  }
+  
+  @media only screen and (min-width: 992px) {
+    body figure img.img-responsive.quarter-width {
+      max-width: 25%;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    body figure img.img-responsive.half-width {
+      max-width: 50%;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    body figure img.img-responsive.three-quarter-width {
+      max-width: 75%;
+    }
+  }
