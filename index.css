@@ -39,7 +39,9 @@ body {
     /* background: #eb01a5; */
   background-image: url(images/code-background.png), linear-gradient(#ffffff30, rgba(0, 0, 0, 0.562));
     /* background: url(images/code-background.png) no-repeat center center fixed; */
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: contain;
     /* display: -ms-flexbox; */
     /* display: -webkit-box; */
     /* display: flex; */
@@ -70,11 +72,11 @@ body {
 
 @media only screen and (max-width: 600px) {
     .cover-heading {
-        font-size: 50px;
+        font-size: 10vw;
     }
 
     .cover-body {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
