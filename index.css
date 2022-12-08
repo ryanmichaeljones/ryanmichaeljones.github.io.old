@@ -1,33 +1,4 @@
-/*
- * Globals
- */
-
-/* Links */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-a,
-a:focus,
-a:hover {
-    color: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
-}
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-    color: #333;
-    text-shadow: none;
-    /* Prevent inheritance from `body` */
-    background-color: #fff;
-    border: .05rem solid #fff;
-}
-
-
-/*
- * Base structure
- */
 
 html,
 body {
@@ -36,17 +7,9 @@ body {
 }
 
 body {
-    /* background: #eb01a5; */
-  background-image: url(images/code-background.png), linear-gradient(#ffffff30, rgba(0, 0, 0, 0.562));
-    /* background: url(images/code-background.png) no-repeat center center fixed; */
-    /* background-repeat: no-repeat; */
+    background-image: url(images/code-background.png), linear-gradient(#ffffff30, rgba(0, 0, 0, 0.562));
     background-position: center;
     background-size: contain;
-    /* display: -ms-flexbox; */
-    /* display: -webkit-box; */
-    /* display: flex; */
-    /* -ms-flex-pack: center; */
-    /* -webkit-box-pack: center; */
     justify-content: center;
     color: #fff;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
@@ -54,35 +17,6 @@ body {
     font-family: 'Montserrat'
 }
 
-.cover-heading {
-    font-size: 60px;
-    text-align: left;
-}
-
-.cover-container {
-    /* max-width: 50em; */
-}
-
-.cover-body {
-    font-size: 20px;
-    text-align: left;
-    /* margin-left: 10em; */
-    /* margin-right: 10em; */
-}
-
-@media only screen and (max-width: 600px) {
-    .cover-heading {
-        font-size: 10vw;
-    }
-
-    .cover-body {
-        font-size: 14px;
-    }
-}
-
-/*
- * Header
- */
 .masthead {
     margin-bottom: 2rem;
     background-color: #333;
@@ -93,7 +27,6 @@ body {
     margin-bottom: 0;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
-    /* letter-spacing: -1px; */
 }
 
 .nav-masthead .nav-link {
@@ -128,31 +61,38 @@ body {
     }
 }
 
-
-/*
- * Cover
- */
-.cover {
-    padding: 0 1.5rem;
+.cover-profile {
+    border-radius: 100%;
+    border: 4px solid white;
 }
 
-.cover .btn-lg {
-    padding: .75rem 1.25rem;
-    font-weight: 700;
+.cover-heading {
+    font-size: 60px;
+    text-align: left;
 }
 
-
-/*
- * Footer
- */
-.mastfoot {
-    color: rgba(255, 255, 255, .5);
+.cover-body {
+    font-size: 20px;
+    text-align: left;
 }
 
-a {
+@media only screen and (max-width: 600px) {
+    .cover-heading {
+        font-size: 10vw;
+    }
+
+    .cover-body {
+        font-size: 14px;
+    }
+}
+
+a,
+a:focus,
+a:hover {
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
 
 .cover-links a :hover {
     opacity: 0.5;
-  }
+}
