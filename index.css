@@ -9,7 +9,7 @@ body {
 body {
     background-image: url(images/code-background.png), linear-gradient(#ffffff30, rgba(0, 0, 0, 0.562));
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     justify-content: center;
     color: #fff;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
