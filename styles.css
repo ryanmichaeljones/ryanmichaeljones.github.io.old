@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+/* html,
+body {
+    height: 100%;
+    background-color: #333;
+} */
+
 body {
   background-image: url(images/code-background.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   justify-content: center;
   color: #fff;
   background-color: #333;
@@ -42,6 +48,12 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-masthead .nav-link+.nav-link {
+      margin-left: 0rem;
+  }
 }
 
 @media (min-width: 48em) {
@@ -148,7 +160,7 @@ p {
   color: white;
 }
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   body figure img.img-responsive.quarter-width {
     max-width: 25%;
   }
@@ -164,4 +176,4 @@ p {
   body figure img.img-responsive.three-quarter-width {
     max-width: 75%;
   }
-}
+} */
