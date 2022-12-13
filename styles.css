@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+html {
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
 body {
   background-image: url(images/code-background.png);
   background-position: center;
@@ -142,4 +148,20 @@ a {
 p {
   text-decoration: none;
   color: white;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #69696973;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
