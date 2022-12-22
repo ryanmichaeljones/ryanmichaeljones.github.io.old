@@ -141,8 +141,11 @@ p {
   margin-bottom: 10;
 }
 
-a {
-  text-decoration: none;
+a,
+a:focus,
+a:hover {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
 }
 
 p {
@@ -164,4 +167,9 @@ p {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.img-fluid {
+  height: 400px; /* insert here your desired height*/
+   object-fit:cover;
 }
