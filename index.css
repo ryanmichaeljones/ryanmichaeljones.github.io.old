@@ -76,12 +76,16 @@ body {
 }
 
 .cover-heading-1 {
-    font-size: 82px;
+    /* font-size: 82px; */
+    /* font-size: 5vw; */
+    font-size: calc(3.1em + 1.7vw);
     font-weight: bolder;
 }
 
 .cover-heading-2 {
-    font-size: 26px;
+    /* font-size: 26px; */
+    /* font-size: 1.56vw; */
+    font-size: calc(1em + 0.5vw);
     font-weight: 300;
 }
 
