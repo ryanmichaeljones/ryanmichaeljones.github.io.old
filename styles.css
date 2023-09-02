@@ -9,13 +9,19 @@ html {
 }
 
 body {
-  background-image: url(images/code-background.png), linear-gradient(#031927, rgba(0, 0, 0, 0.562));
+  background-image: url(images/code-background.png), linear-gradient(#031927, #031927);
   background-position: center;
   background-size: cover;
   justify-content: center;
   background-color: #333;
   font-family: 'Montserrat';
   min-height: 100%;
+}
+
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1200px;
+  }
 }
 
 .masthead {
@@ -78,9 +84,14 @@ body {
   color: white;
 }
 
-.row {
-  padding-bottom: 10px;
+.test-content {
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+/* .row {
+  padding-bottom: 10px;
+} */
 
 .cover-heading {
   letter-spacing: -1px;
@@ -102,6 +113,14 @@ body {
 }
 
 p {
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
   font-size: 16px;
 }
 
@@ -114,7 +133,7 @@ p {
 }
 
 .level-bar {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .level-label {
@@ -127,12 +146,12 @@ p {
 }
 
 .level-bar-back {
-  height: 15px;
+  height: 10px;
   background: #e8e8e8;
 }
 
 .level-bar-inner {
-  height: 15px;
+  height: 10px;
   background: #66cb8c;
 }
 
