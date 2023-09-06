@@ -84,14 +84,15 @@ body {
 .cover-heading-1 {
     /* font-size: 82px; */
     /* font-size: 5vw; */
-    font-size: calc(3.1em + 1.7vw);
+    font-size: calc(2.4em + 1.7vw);
     font-weight: bolder;
+    line-height: 1em;
 }
 
 .cover-heading-2 {
     /* font-size: 26px; */
     /* font-size: 1.56vw; */
-    font-size: calc(1em + 0.5vw);
+    font-size: calc(0.81em + 0.6vw);
     font-weight: 300;
 }
 
@@ -123,5 +124,30 @@ a:hover {
 }
 
 .cover-links > *:not(:last-child) {
-    margin-right: 5px; 
+    margin-right: 4px; 
 } 
+
+.cover-links a {
+    color: rgba(255, 255, 255, 1);
+}
+
+ion-icon:hover {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.ionicon {
+    fill: white;
+  }
+
+  .panel {
+    background-color: #3031347c;
+  }
+
+  hr {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 20px auto 25px;
+}

@@ -112,8 +112,23 @@ body {
   opacity: 0.5;
 }
 
+.ionicon {
+  fill: white;
+}
+
+ion-item {
+  width:100%;
+display:flex;
+align-items:center;
+/* justify-content:center; */
+}
+
+li {
+  padding-bottom: 2px;
+}
+
 p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 h4 {
@@ -156,7 +171,7 @@ h5 {
 }
 
 .level-title {
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
@@ -172,6 +187,21 @@ a:hover {
 p {
   text-decoration: none;
   /* color: white; */
+}
+
+.input-group-addon {
+  background-color: #EEEEEE;
+  color: #555555;
+  padding: 6px 12px;
+}
+
+.card:hover {
+  background-color: #303134;
+  border-color: white;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
 }
 
 ::-webkit-scrollbar {
