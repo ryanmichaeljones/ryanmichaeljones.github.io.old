@@ -92,7 +92,7 @@ body {
 .cover-heading-2 {
     /* font-size: 26px; */
     /* font-size: 1.56vw; */
-    font-size: calc(0.81em + 0.6vw);
+    font-size: calc(0.81em + 0.58vw);
     font-weight: 300;
 }
 
