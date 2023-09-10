@@ -1,9 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@100;300,400;500;700;900&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    /* font-family: 'Roboto', sans-serif; */
     font-family: "Poppins", sans-serif;
 }
 
@@ -14,8 +11,6 @@ body {
 }
 
 body {
-    /* background-image: url(images/code-background.png), linear-gradient(#ffffff30, rgba(0, 0, 0, 0.562)); */
-    /* background-color: #031927; */
     background-image: url(images/code-background.png), linear-gradient(#031927, rgba(0, 0, 0, 0.562));
     background-position: center;
     background-size: cover;
@@ -23,13 +18,18 @@ body {
     color: #fff;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    /* font-family: 'Montserrat' */
 }
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+  }
 
 .masthead {
     margin-bottom: 2rem;
     background-color: #333;
-    border-bottom: 4px solid rgb(212, 200, 30);
+    border-bottom: 1px solid rgb(119, 119, 119);
 }
 
 .masthead-brand {
@@ -40,7 +40,7 @@ body {
 
 .nav-masthead .nav-link {
     padding: .25rem 0;
-    font-weight: 700;
+    font-weight: 500;
     color: rgba(255, 255, 255, .5);
     background-color: transparent;
     border-bottom: .25rem solid transparent;
@@ -82,20 +82,24 @@ body {
 }
 
 .cover-heading-1 {
-    font-size: 70px;
-    text-align: left;
+    /* font-size: 82px; */
+    /* font-size: 5vw; */
+    font-size: calc(2.4em + 1.7vw);
+    font-weight: bolder;
+    line-height: 1em;
 }
 
 .cover-heading-2 {
-    font-size: 30px;
-    text-align: left;
-    /* color: rgb(212, 200, 30); */
+    /* font-size: 26px; */
+    /* font-size: 1.56vw; */
+    font-size: calc(0.81em + 0.58vw);
+    font-weight: 300;
 }
 
 .cover-body {
     padding-top:10px;
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 @media only screen and (max-width: 600px) {
@@ -117,4 +121,33 @@ a:hover {
 
 .cover-links a :hover {
     opacity: 0.5;
+}
+
+.cover-links > *:not(:last-child) {
+    margin-right: 4px; 
+} 
+
+.cover-links a {
+    color: rgba(255, 255, 255, 1);
+}
+
+ion-icon:hover {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.ionicon {
+    fill: white;
+  }
+
+  .panel {
+    background-color: #3031347c;
+  }
+
+  hr {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 20px auto 25px;
 }

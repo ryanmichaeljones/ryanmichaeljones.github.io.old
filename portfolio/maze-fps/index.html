@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../../images/favicon.png">
-    <title>Portfolio: Chaotic Engine | ryanmichaeljones.uk</title>
+    <title>Portfolio: Maze FPS | ryanmichaeljones.uk</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
@@ -15,43 +15,35 @@
 </head>
 
 <body>
-    <div class="masthead navbar navbar-expand-md p-2 navbar-dark mb-auto">
+    <div class="masthead navbar navbar-expand-md p-2 navbar-dark mb-auto fixed-top">
         <div class="container justify-content-between">
-            <a class="masthead-brand" href="../"><strong style="color: #fff;">ryanmichaeljones</strong>.uk</a>
+            <a class="masthead-brand" href="../"><strong
+                    style="color: #fff; font-weight: 500;">ryanmichaeljones</strong>.co.uk</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="collapse navbar-collapse nav-masthead justify-content-end" id="collapsibleNavbar">
+            <nav class="collapse navbar-collapse nav-masthead justify-content-end text-center" id="collapsibleNavbar">
                 <a class="nav-link" href="../../">Home</a>
                 <a class="nav-link" href="../../about/">About</a>
-                <a class="nav-link" href="../portfolio/">Portfolio</a>
+                <a class="nav-link" href="../../portfolio/">Portfolio</a>
                 <a class="nav-link" href="../../contact/">Contact</a>
             </nav>
         </div>
     </div>
 
-    <div class="content">
-        <div class="container">
-            <div class="row">
+    <div class="test-content" style="margin-top:50px">
+        <div class="container panel">
+            <div class="row pt-2">
                 <div class="col-12">
-                    <div class="panel col-12 rounded border border-white border-opacity-10 border-4 h-100">
-                        <div class="p-3 mb-3">
-                            <h4 class="fw-bold border-bottom border-white border-opacity-10 border-4 pb-2 text-white">
-                                Procedural Maze FPS Game</h4>
-                                <img class="img-fluid p-3 mx-auto d-block" src="../../images/maze-fps-2.png">
-                            
-                            <p>
-                                This game was the first major programming project I produced during college.<br/>
-
-                                The game levels are made up of procedurally generated mazes. I implemented the Recursive
-                                Backtracker algorithm to generate random maze layouts. The A* algorithm is used to
-                                determine whether the maze is solvable before using it as the game level. The aim of the
-                                game is for the player to traverse the maze from the start to the end before the timer
-                                runs out. Along the way, the player kills enemies and obtains collectables in order to
-                                maximise their overall score.<br/>
-
-                                The game was produced in Unity and C#.
-                            </p>
+                    <div class=" rounded h-100">
+                        <div class="px-3 pt-3 pb-2">
+                            <h4 class="fw-bold border-bottom border-white border-opacity-25 border-4 pb-2 text-white">
+                                Portfolio: Maze FPS<a
+                                class="back-button float-end border border-1 rounded-2 px-2 btn btn-dark py-0"
+                                href="../">Go Back</a></h4>
+                            <div class="row">
+                                <p class="text-white">Coming soon...</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -59,8 +51,8 @@
         </div>
     </div>
 
-    <footer class="text-muted pt-3">
-        <div class="container">
+    <footer class="container-lg pt-3 pb-1 text-muted mt-auto">
+        <div class="text-center">
             <p>Copyright © Ryan Jones 2022</p>
         </div>
     </footer>

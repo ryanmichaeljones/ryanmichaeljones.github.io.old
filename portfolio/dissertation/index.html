@@ -15,37 +15,62 @@
 </head>
 
 <body>
-    <div class="masthead navbar navbar-expand-md p-2 navbar-dark mb-auto">
+    <div class="masthead navbar navbar-expand-md p-2 navbar-dark mb-auto fixed-top">
         <div class="container justify-content-between">
-            <a class="masthead-brand" href="../"><strong style="color: #fff;">ryanmichaeljones</strong>.uk</a>
+            <a class="masthead-brand" href="../"><strong
+                    style="color: #fff; font-weight: 500;">ryanmichaeljones</strong>.co.uk</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="collapse navbar-collapse nav-masthead justify-content-end" id="collapsibleNavbar">
+            <nav class="collapse navbar-collapse nav-masthead justify-content-end text-center" id="collapsibleNavbar">
                 <a class="nav-link" href="../../">Home</a>
                 <a class="nav-link" href="../../about/">About</a>
-                <a class="nav-link" href="../portfolio/">Portfolio</a>
+                <a class="nav-link" href="../../portfolio/">Portfolio</a>
                 <a class="nav-link" href="../../contact/">Contact</a>
             </nav>
         </div>
     </div>
 
-    <div class="content">
-        <div class="container">
-            <div class="row">
+    <div class="test-content" style="margin-top:50px">
+        <div class="container panel">
+            <div class="row pt-2">
                 <div class="col-12">
-                    <div class="panel col-12 rounded border border-white border-opacity-10 border-4 h-100">
-                        <div class="p-3 mb-3">
-                            <h4 class="fw-bold border-bottom border-white border-opacity-10 border-4 pb-2 text-white">
-                                Dissertation: Procedural Dungeon Generator</h4>
-                                <p class="mb-0 pt-2 text-white fst-italic" style="font-size: 14px;">Title: Implementing a Procedural Algorithm for Generation of a Rogue-like Dungeon.</p>
-                                <p class="mb-0 pt-2 text-white fst-italic" style="font-size: 14px;">Abstract: Procedural generation is the process of generating data through the use of algorithms and is widely used within the video games industry as a way of automatically creating large amounts of content. During development, procedural generation is used to reduce the time required to create levels thus, allowing for more focus on the implementation of game mechanics. The benefit to producing content using this approach is that it allows for more randomness within levels which gives gameplay less predictability. The focus of this project will be on the generation of levels for use within a dungeon game. An investigation will be conducted into the techniques used in procedural dungeon generation and they will be evaluated. The techniques will be used to implement a system which will generate dungeon levels with rooms of varying sizes and tunnels interconnecting with them.</p>
-                                <img class="img-fluid p-3 mx-auto d-block" src="../../images/dissertation-2.JPG">
-                                <p class="mb-0 pt-2 text-white">
-                                    For the final year of university my dissertation focussed on the implementation of various algorithms to produce a dungeon generator. The generator uses Prim's Minimum Spanning Tree to decide how the dungeon rooms are connected together. The A* Search is used to control how the paths chosen by Prim's are drawn between the rooms. The program was developed in Unity and C#.
+                    <div class=" rounded h-100">
+                        <div class="px-3 pt-3 pb-2">
+                            <h4 class="fw-bold border-bottom border-white border-opacity-25 border-4 pb-2 text-white">
+                                Portfolio: Dissertation<a
+                                    class="back-button float-end border border-1 rounded-2 px-2 btn btn-dark py-0"
+                                    href="../">Go Back</a></h4>
+                            <div class="row">
+                                <div class="col-7 pt-2">
+                                    <h5 class="fw-bold text-white">Title</h5>
+                                <p class="text-white">Implementing a Procedural Algorithm for Generation of a Rogue-like
+                                    Dungeon</p>
+                                <h5 class="fw-bold text-white">Abstract</h5>
+                                <p class="text-white">Procedural generation is the process of generating data through
+                                    the use of algorithms and is widely used within the video games industry as a way of
+                                    automatically creating large amounts of content. During development, procedural
+                                    generation is used to reduce the time required to create levels thus, allowing for
+                                    more focus on the implementation of game mechanics. The benefit to producing content
+                                    using this approach is that it allows for more randomness within levels which gives
+                                    gameplay less predictability. The focus of this project will be on the generation of
+                                    levels for use within a dungeon game. An investigation will be conducted into the
+                                    techniques used in procedural dungeon generation and they will be evaluated. The
+                                    techniques will be used to implement a system which will generate dungeon levels
+                                    with rooms of varying sizes and tunnels interconnecting with them.
                                 </p>
-                                <p class="mb-0 pt-2 text-white">I achieved a first for the completed project and dissertation.</p>
-                                <p class="mb-0 pt-2 text-white">I am really proud of how this project went and it is something I would like to integrate into a fully functional game in the future.</p>
+                                </div>
+                                <div class="col-5 pt-2 d-flex align-items-center">
+                                    <img class="img-fluid d-block m-auto" src="/images/dissertation-2.JPG" width="500" />
+                                </div>
+                                <h5 class="fw-bold text-white">Overview</h5>
+                                    <p class="text-white">For the final year of university my dissertation focused on
+                                        the implementation of various algorithms to produce a dungeon generator. The
+                                        generator uses Prim's Minimum Spanning Tree to decide how the dungeon rooms are
+                                        connected together. The A* Search is used to control how the paths chosen by
+                                        Prim's are drawn between the rooms. The program was developed in Unity and C#.
+                                        I achieved a first for the completed project and dissertation.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -53,8 +78,8 @@
         </div>
     </div>
 
-    <footer class="text-muted pt-3">
-        <div class="container">
+    <footer class="container-lg pt-3 pb-1 text-muted mt-auto">
+        <div class="text-center">
             <p>Copyright © Ryan Jones 2022</p>
         </div>
     </footer>
